@@ -59,12 +59,6 @@ function setSquare(thisSquare) {
 
   // JavaScript array
 
-  // var data = Array.prototype.map.call(document.querySelectorAll('#items tr'), function (tr) {
-  //   return Array.prototype.map.call(tr.querySelectorAll('td'), function (td) {
-  //     return td.innerHTML;
-  //   });
-  // });
-
   var data = Array.prototype.map.call(document.querySelectorAll('#items tr'), function (tr) {
     return Array.prototype.map.call(tr.querySelectorAll('td'), function (td) {
       return td.innerHTML;
