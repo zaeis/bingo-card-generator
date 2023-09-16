@@ -5,7 +5,17 @@ body {
 	font-family: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
 }
 
-h1, th {
+@media print {
+	body {
+		width: 21cm;
+		height: 29.7cm;
+		margin: 30mm 45mm 30mm 45mm;
+		/* change the margins as you want them to be. */
+	}
+}
+
+h1,
+th {
 	font-family: Georgia, "Times New Roman", Times, serif;
 }
 
@@ -17,7 +27,8 @@ table {
 	border-collapse: collapse;
 }
 
-th, td {
+th,
+td {
 	padding: 10px;
 	border: 2px #666 solid;
 	text-align: center;
