@@ -79,12 +79,16 @@ function setSquare(thisSquare) {
   // Create the unordered list element
   //and set its inner HTML using map() and join()
 
-  // let ul = `<ul>${data.map(data => data.filter(x => x !== "Free").map(x => `<li> ${x} </li>`).join('')
-  // ).join('')}
-  //                 </ul>`;
+  const combine = data
+    .flatMap(a => a
+      .filter(x => x !== "Free"))
+    .map((x, i) => [x, bbb[i]])
 
-  let ul = `<ul>${data.map(data => data.filter(x => x !== "Free").map((x, i) => `<li> ${x} : ${bbb[i]} </li>`).join('')
-  ).join('')}
+  console.log(combine)
+
+  let ul = `<ul>${combine
+    .map(x => `<li> ${x[0]} : ${x[1]} </li>`)
+    .join('')}
                   </ul>`;
 
   // Set the inner HTML of the list container
