@@ -87,6 +87,10 @@ function setSquare(thisSquare) {
 
   // Set the inner HTML of the list container
   list.innerHTML = ul;
+
+
+
+
 }
 
 function getNewNum() {

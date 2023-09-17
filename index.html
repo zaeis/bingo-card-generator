@@ -3,7 +3,7 @@
 <head>
 	<title>Make Your Own Bingo Card</title>
 	<link rel="stylesheet" rev="stylesheet" href="bingo-card.css" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/paper-css/0.3.0/paper.css">
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/paper-css/0.3.0/paper.css"> -->
 	<script type="text/javascript" src="bingo-card.js">
 	</script>
 	<!-- Set page size here: A5, A4 or A3 -->
@@ -13,61 +13,63 @@
 			size: A4
 		}
 	</style>
+
 </head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<section class="container">
+<section class="box">
+	<section class="container">
 
-	<body class="A4">
-		<table id="items">
-			<tr>
-				<th>B</th>
-				<th>I</th>
-				<th>N</th>
-				<th>G</th>
-				<th>O</th>
-			</tr>
-			<tr>
-				<td id="square0">&nbsp;</td>
-				<td id="square1">&nbsp;</td>
-				<td id="square2">&nbsp;</td>
-				<td id="square3">&nbsp;</td>
-				<td id="square4">&nbsp;</td>
-			</tr>
-			<tr>
-				<td id="square5">&nbsp;</td>
-				<td id="square6">&nbsp;</td>
-				<td id="square7">&nbsp;</td>
-				<td id="square8">&nbsp;</td>
-				<td id="square9">&nbsp;</td>
-			</tr>
-			<tr>
-				<td id="square10">&nbsp;</td>
-				<td id="square11">&nbsp;</td>
-				<td id="free">Free</td>
-				<td id="square12">&nbsp;</td>
-				<td id="square13">&nbsp;</td>
-			</tr>
-			<tr>
-				<td id="square14">&nbsp;</td>
-				<td id="square15">&nbsp;</td>
-				<td id="square16">&nbsp;</td>
-				<td id="square17">&nbsp;</td>
-				<td id="square18">&nbsp;</td>
-			</tr>
-			<tr>
-				<td id="square19">&nbsp;</td>
-				<td id="square20">&nbsp;</td>
-				<td id="square21">&nbsp;</td>
-				<td id="square22">&nbsp;</td>
-				<td id="square23">&nbsp;</td>
-			</tr>
-		</table>
+		<body class="A3">
+			<table id="items">
+				<tr>
+					<th>B</th>
+					<th>I</th>
+					<th>N</th>
+					<th>G</th>
+					<th>O</th>
+				</tr>
+				<tr>
+					<td id="square0">&nbsp;</td>
+					<td id="square1">&nbsp;</td>
+					<td id="square2">&nbsp;</td>
+					<td id="square3">&nbsp;</td>
+					<td id="square4">&nbsp;</td>
+				</tr>
+				<tr>
+					<td id="square5">&nbsp;</td>
+					<td id="square6">&nbsp;</td>
+					<td id="square7">&nbsp;</td>
+					<td id="square8">&nbsp;</td>
+					<td id="square9">&nbsp;</td>
+				</tr>
+				<tr>
+					<td id="square10">&nbsp;</td>
+					<td id="square11">&nbsp;</td>
+					<td id="free">Free</td>
+					<td id="square12">&nbsp;</td>
+					<td id="square13">&nbsp;</td>
+				</tr>
+				<tr>
+					<td id="square14">&nbsp;</td>
+					<td id="square15">&nbsp;</td>
+					<td id="square16">&nbsp;</td>
+					<td id="square17">&nbsp;</td>
+					<td id="square18">&nbsp;</td>
+				</tr>
+				<tr>
+					<td id="square19">&nbsp;</td>
+					<td id="square20">&nbsp;</td>
+					<td id="square21">&nbsp;</td>
+					<td id="square22">&nbsp;</td>
+					<td id="square23">&nbsp;</td>
+				</tr>
+			</table>
+	</section>
+	<section class="myList">
+		<section id="myList" class="flip"></section>
+
+	</section>
 </section>
-<section class="myList">
-	<section id="myList" class="flip"></section>
-
-</section>
-
 <p class="hideme"><a href="script.html" id="reload">Click here</a> to create a new card</p>
 
 </body>
