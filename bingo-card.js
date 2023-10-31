@@ -43,7 +43,7 @@ function setSquare(thisSquare) {
     "Customer is thankful for advice",
     "Customer tries to use next month discount",
     "Customer wants an item on hold",
-    "Remove sticker from floor",
+    "Choose doorbuster item",
     "Top Addons",
     "Top Emails",
     "Top ATV",
