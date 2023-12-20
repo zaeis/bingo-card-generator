@@ -45,15 +45,19 @@ function setSquare(thisSquare) {
     "Customer tries to use next month discount",
     "Customer wants an item on hold",
     "Choose doorbuster item",
-    "Top Addons",
-    "Top Emails",
-    "Top ATV",
-    "Top IPC",
+    "Top Addons on the board",
+    "Top Emails on the board",
+    "Top ATV on the board",
+    "Top IPC on the board",
     "Change an incorrect price sticker",
     "Sell an OFS in stock at CMR",
     "Clean mirrors 3x",
-    "Sell a succulent",
-    "Find a requested item from the stockroom"
+    "Sell a Neon Sheep item",
+    "Find a requested item from the stockroom",
+    "Sell the same item you're wearing on uniform",
+    "Replen section from stock we have in stockroom",
+    "Sell an out of season item",
+    "Save a sale with Web Price Match"
   ];
 
   do {
