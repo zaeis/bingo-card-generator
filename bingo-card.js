@@ -55,7 +55,7 @@ function setSquare(thisSquare) {
     "Sell a Neon Sheep item",
     "Find a requested item from the stockroom",
     "Sell the same item you're wearing on uniform",
-    "Replen section from stock we have in stockroom",
+    "Replen section from stockroom",
     "Sell an out of season item",
     "Save a sale with Web Price Match"
   ];
