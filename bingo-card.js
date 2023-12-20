@@ -23,7 +23,8 @@ function setSquare(thisSquare) {
   var colBasis = colPlace[thisSquare] * 15;
   var newNum = colBasis + getNewNum() + 1;
 
-  const bbb = [
+
+  let bbb = [
     "Answer the phone",
     "Sell an entire outfit",
     "OFS an addon item",
@@ -48,6 +49,11 @@ function setSquare(thisSquare) {
     "Top Emails",
     "Top ATV",
     "Top IPC",
+    "Change an incorrect price sticker",
+    "Sell an OFS in stock at CMR",
+    "Clean mirrors 3x",
+    "Sell a succulent",
+    "Find a requested item from the stockroom"
   ];
 
   do {
@@ -72,6 +78,8 @@ function setSquare(thisSquare) {
 
   // Create the unordered list element
   //and set its inner HTML using map() and join()
+
+  bbb.sort(() => Math.random() - 0.5).slice(0, 20);
 
   const combine = data
     .flatMap(a => a
